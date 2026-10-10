@@ -1,0 +1,16 @@
+{
+  "name": "course-fee-calculator",
+  "version": "1.0.0",
+  "description": "Learners Point course fee calculator with admin-managed rates",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/engine.test.js && node test/server.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
